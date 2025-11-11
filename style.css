@@ -1,6 +1,10 @@
 .header img {
     padding: 1%;
     background-color: white;
+    width: fit-content;
+    height: auto;
+    padding: 10px
+    
 }
 
 body {
@@ -13,4 +17,8 @@ body {
 #figcaption {
     text-align: left;
     padding-left: 10%;
+}
+
+#link {
+    color:gold;
 }
