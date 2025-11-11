@@ -1,0 +1,16 @@
+.header img {
+    padding: 1%;
+    background-color: white;
+}
+
+body {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    text-align: center;
+}
+
+#figcaption {
+    text-align: left;
+    padding-left: 10%;
+}
