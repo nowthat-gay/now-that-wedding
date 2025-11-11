@@ -1,10 +1,8 @@
 .header img {
     padding: 1%;
     background-color: white;
-    width: fit-content;
-    height: auto;
     padding: 10px
-    
+    object-fit: cover;
 }
 
 body {
