@@ -18,7 +18,7 @@ h1 {
     position: fixed;
     inset: 0;
     background: url("pics/logo-nobg.png") center / 50% no-repeat;
-    opacity: 0.25;
+    opacity: 0.15;
     pointer-events: none;
 }
 .page {
