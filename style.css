@@ -1,23 +1,103 @@
-.header img {
-    padding: 1%;
-    background-color: white;
-    padding: 10px;
-    max-width: 80%;
-    max-height: auto;
+* {
+    color: white;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 body {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
     background-color: black;
-    text-align: center;
 }
 
-#figcaption {
-    text-align: left;
-    padding-left: 10%;
+h1 {
+    font-size: 4vw;
 }
 
-#link {
-    color:gold;
+.bg {
+    position: fixed;
+    inset: 0;
+    background: url("pics/logo-nobg.png") center / 50% no-repeat;
+    opacity: 0.25;
+    pointer-events: none;
+}
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout{
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 24px;
+  align-items: start;
+}
+
+.ravi-headline{
+  margin: 0 0 16px;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.ravi-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  height: 1000px;
+}
+
+.ravi-grid figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.ravi-grid img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.ravi-grid figcaption{
+  margin-top: 6px;
+  font-size: 24px;
+  text-align: center;
+}
+
+@media (max-width: 900px){
+  .ravi-grid{
+    height: 70vh;
+  }
+}
+
+.book-headline{
+  margin: 0 0 16px;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+#candude-cover {
+    aspect-ratio: 3/4;
+}
+
+#candude-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#candude-cover figcaption{
+  margin-top: 6px;
+  font-size: 24px;
+  text-align: center;
 }
